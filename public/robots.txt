@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://usuario.github.io/sitemap-index.xml
+Sitemap: https://Player2610.github.io/portfolio_elec/sitemap-index.xml
