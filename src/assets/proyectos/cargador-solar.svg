@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <rect width="800" height="500" fill="#12122a"/>
+  <rect x="60" y="60" width="680" height="380" rx="12" fill="#1e1e3a"/>
+  <!-- solar panel -->
+  <rect x="100" y="100" width="260" height="170" rx="4" fill="#1a2a4a" stroke="#3d5a8a" stroke-width="1.5"/>
+  <!-- panel cells -->
+  <line x1="165" y1="100" x2="165" y2="270" stroke="#2d4a7a" stroke-width="1"/>
+  <line x1="230" y1="100" x2="230" y2="270" stroke="#2d4a7a" stroke-width="1"/>
+  <line x1="295" y1="100" x2="295" y2="270" stroke="#2d4a7a" stroke-width="1"/>
+  <line x1="100" y1="157" x2="360" y2="157" stroke="#2d4a7a" stroke-width="1"/>
+  <line x1="100" y1="213" x2="360" y2="213" stroke="#2d4a7a" stroke-width="1"/>
+  <!-- sun rays -->
+  <circle cx="480" cy="175" r="35" fill="#fbbf24" opacity="0.9"/>
+  <line x1="480" y1="120" x2="480" y2="110" stroke="#fbbf24" stroke-width="3" stroke-linecap="round"/>
+  <line x1="480" y1="230" x2="480" y2="240" stroke="#fbbf24" stroke-width="3" stroke-linecap="round"/>
+  <line x1="425" y1="175" x2="415" y2="175" stroke="#fbbf24" stroke-width="3" stroke-linecap="round"/>
+  <line x1="535" y1="175" x2="545" y2="175" stroke="#fbbf24" stroke-width="3" stroke-linecap="round"/>
+  <line x1="441" y1="136" x2="434" y2="129" stroke="#fbbf24" stroke-width="3" stroke-linecap="round"/>
+  <line x1="519" y1="214" x2="526" y2="221" stroke="#fbbf24" stroke-width="3" stroke-linecap="round"/>
+  <line x1="519" y1="136" x2="526" y2="129" stroke="#fbbf24" stroke-width="3" stroke-linecap="round"/>
+  <line x1="441" y1="214" x2="434" y2="221" stroke="#fbbf24" stroke-width="3" stroke-linecap="round"/>
+  <!-- wire from panel to MPPT -->
+  <line x1="360" y1="185" x2="580" y2="185" stroke="#6366f1" stroke-width="2.5" stroke-dasharray="8 4"/>
+  <!-- MPPT controller box -->
+  <rect x="580" y="155" width="110" height="80" rx="6" fill="#22223a" stroke="#818cf8" stroke-width="1.5"/>
+  <text x="635" y="190" text-anchor="middle" font-family="monospace" font-size="11" font-weight="bold" fill="#818cf8">MPPT</text>
+  <text x="635" y="210" text-anchor="middle" font-family="monospace" font-size="10" fill="#8888a0">98.2%</text>
+  <!-- wire to battery -->
+  <line x1="635" y1="235" x2="635" y2="300" stroke="#6ee7b7" stroke-width="2.5"/>
+  <!-- battery -->
+  <rect x="570" y="300" width="130" height="80" rx="6" fill="#22223a" stroke="#6ee7b7" stroke-width="1.5"/>
+  <text x="635" y="335" text-anchor="middle" font-family="monospace" font-size="11" fill="#6ee7b7">12V / 40Ah</text>
+  <rect x="580" y="345" width="90" height="8" rx="3" fill="#2d2d4a"/>
+  <rect x="580" y="345" width="72" height="8" rx="3" fill="#6ee7b7"/>
+  <text x="635" y="368" text-anchor="middle" font-family="monospace" font-size="9" fill="#8888a0">80% cargado</text>
+  <!-- label -->
+  <text x="400" y="450" text-anchor="middle" font-family="monospace" font-size="13" fill="#8888a0">CARGADOR SOLAR CON MPPT</text>
+</svg>
