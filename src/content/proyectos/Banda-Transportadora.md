@@ -5,7 +5,7 @@ categoria: electronica
 fecha: 2026-01-15
 destacado: false
 tags: ["Arduino Due", "Banda transportadora", "Infrarrojo", "Puente H", "Motor DC", "MDF", "Control"]
-imagenPortada: "../../assets/proyectos/banda-transportadora.png"
+imagenPortada: "../../assets/proyectos/Banda-Transportadora.png"
 enlaces:
   repo: "https://github.com"
 ---
