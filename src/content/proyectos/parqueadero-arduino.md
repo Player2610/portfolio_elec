@@ -5,7 +5,7 @@ categoria: electronica
 fecha: 2026-01-15
 destacado: false
 tags: ["Arduino Nano", "Ultrasónico", "Servo", "LCD", "C++", "Control"]
-imagenPortada: "../../assets/proyectos/parqueadero-arduino.jpg"
+imagenPortada: "../../assets/proyectos/parqueadero-arduino.png"
 enlaces:
   repo: "https://github.com"
 ---
