@@ -3,6 +3,6 @@ import { defineConfig } from 'astro/config';
 import sitemap from '@astrojs/sitemap';
 
 export default defineConfig({
-  site: 'https://portfolio-electronica.vercel.app',
+  site: 'https://portfolio-elec.vercel.app',
   integrations: [sitemap()],
 });
