@@ -39,9 +39,11 @@ html {
 }
 
 body {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+  background-color: #050816;
+  background-image: url('/images/3279536_472447-PGQJEX-820-02.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 main {
